@@ -59,7 +59,7 @@ def resolve_dependencies(addon_xml):
 
 # Exemple d'utilisation du script
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3:
         print(f"Syntax : {sys.argv[0]} <addon_name> <addon_version> [kodi_addons_dir] [kodi_temp_dir]")
         sys.exit(1)
 
